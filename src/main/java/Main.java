@@ -28,7 +28,6 @@ For more in the future and more awesomer...
 5) You can make a new class for a turn, or a piece, or a screen painter
 */
 
-//im gonna shit your shelf
 
 public class Main {
   public static final int[][] BOARD = {
