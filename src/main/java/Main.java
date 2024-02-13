@@ -31,8 +31,18 @@ For more in the future and more awesomer...
 //im gonna shit your shelf
 
 public class Main {
+  public static final int[][] BOARD = {
+    {0,2,1},
+    {1,1,0},
+    {1,2,2}
+  };
   public static void main(String[] args) {
-    new Player();
+    Player a = new Player(1);
+    System.out.println(checkPlayerWin(a, BOARD));
     System.out.println("TTT - RAN WITHOUT ERRORS");
+  }
+
+  public static boolean checkPlayerWin(Player p, int[][] b){
+    return false;
   }
 }
